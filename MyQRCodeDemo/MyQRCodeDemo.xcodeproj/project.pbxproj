@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001C4FC11C87D8C100B66744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 001C4FC01C87D8C100B66744 /* main.m */; };
+		001C4FC41C87D8C100B66744 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 001C4FC31C87D8C100B66744 /* AppDelegate.m */; };
+		001C4FC71C87D8C100B66744 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001C4FC61C87D8C100B66744 /* ViewController.m */; };
+		001C4FCA1C87D8C100B66744 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FC81C87D8C100B66744 /* Main.storyboard */; };
+		001C4FCC1C87D8C100B66744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FCB1C87D8C100B66744 /* Assets.xcassets */; };
+		001C4FCF1C87D8C100B66744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FCD1C87D8C100B66744 /* LaunchScreen.storyboard */; };
+		001C4FD91C87D90A00B66744 /* QRCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001C4FD71C87D90A00B66744 /* QRCodeScanViewController.m */; };
+		001C4FDA1C87D90A00B66744 /* QRCodeScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FD81C87D90A00B66744 /* QRCodeScanViewController.xib */; };
+		001C4FDC1C87D92700B66744 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001C4FDB1C87D92700B66744 /* AVFoundation.framework */; };
+		001C4FE81C87DCBC00B66744 /* downLeftCorner.png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FDE1C87DCBC00B66744 /* downLeftCorner.png */; };
+		001C4FE91C87DCBC00B66744 /* downRightCorner.png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FDF1C87DCBC00B66744 /* downRightCorner.png */; };
+		001C4FEA1C87DCBC00B66744 /* iconfont-erweima (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FE01C87DCBC00B66744 /* iconfont-erweima (1).png */; };
+		001C4FEB1C87DCBC00B66744 /* iconfont-erweima.png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FE11C87DCBC00B66744 /* iconfont-erweima.png */; };
+		001C4FEC1C87DCBC00B66744 /* iconfont-llalbumflashon (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FE21C87DCBC00B66744 /* iconfont-llalbumflashon (1).png */; };
+		001C4FED1C87DCBC00B66744 /* iconfont-llalbumflashon.png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FE31C87DCBC00B66744 /* iconfont-llalbumflashon.png */; };
+		001C4FEE1C87DCBC00B66744 /* iconfont-tiaoxingma (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FE41C87DCBC00B66744 /* iconfont-tiaoxingma (1).png */; };
+		001C4FEF1C87DCBC00B66744 /* iconfont-tiaoxingma.png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FE51C87DCBC00B66744 /* iconfont-tiaoxingma.png */; };
+		001C4FF01C87DCBC00B66744 /* leftCorner.png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FE61C87DCBC00B66744 /* leftCorner.png */; };
+		001C4FF11C87DCBC00B66744 /* rightCorner.png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FE71C87DCBC00B66744 /* rightCorner.png */; };
+		001C4FF31C87DD3500B66744 /* n_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FF21C87DD3500B66744 /* n_b.png */; };
+		001C4FF51C87E1CA00B66744 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FF41C87E1CA00B66744 /* line@2x.png */; };
+		001C4FF81C87E5AB00B66744 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 001C4FF71C87E5AB00B66744 /* QRCodeGenerator.m */; };
+		001C4FFA1C87E6AC00B66744 /* 小图片.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001C4FF91C87E6AC00B66744 /* 小图片.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001C4FBC1C87D8C000B66744 /* MyQRCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyQRCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		001C4FC01C87D8C100B66744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		001C4FC21C87D8C100B66744 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		001C4FC31C87D8C100B66744 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		001C4FC51C87D8C100B66744 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		001C4FC61C87D8C100B66744 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		001C4FC91C87D8C100B66744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		001C4FCB1C87D8C100B66744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		001C4FCE1C87D8C100B66744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		001C4FD01C87D8C100B66744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		001C4FD61C87D90A00B66744 /* QRCodeScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeScanViewController.h; sourceTree = "<group>"; };
+		001C4FD71C87D90A00B66744 /* QRCodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanViewController.m; sourceTree = "<group>"; };
+		001C4FD81C87D90A00B66744 /* QRCodeScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCodeScanViewController.xib; sourceTree = "<group>"; };
+		001C4FDB1C87D92700B66744 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		001C4FDE1C87DCBC00B66744 /* downLeftCorner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downLeftCorner.png; sourceTree = "<group>"; };
+		001C4FDF1C87DCBC00B66744 /* downRightCorner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downRightCorner.png; sourceTree = "<group>"; };
+		001C4FE01C87DCBC00B66744 /* iconfont-erweima (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-erweima (1).png"; sourceTree = "<group>"; };
+		001C4FE11C87DCBC00B66744 /* iconfont-erweima.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-erweima.png"; sourceTree = "<group>"; };
+		001C4FE21C87DCBC00B66744 /* iconfont-llalbumflashon (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-llalbumflashon (1).png"; sourceTree = "<group>"; };
+		001C4FE31C87DCBC00B66744 /* iconfont-llalbumflashon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-llalbumflashon.png"; sourceTree = "<group>"; };
+		001C4FE41C87DCBC00B66744 /* iconfont-tiaoxingma (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-tiaoxingma (1).png"; sourceTree = "<group>"; };
+		001C4FE51C87DCBC00B66744 /* iconfont-tiaoxingma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-tiaoxingma.png"; sourceTree = "<group>"; };
+		001C4FE61C87DCBC00B66744 /* leftCorner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftCorner.png; sourceTree = "<group>"; };
+		001C4FE71C87DCBC00B66744 /* rightCorner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightCorner.png; sourceTree = "<group>"; };
+		001C4FF21C87DD3500B66744 /* n_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = n_b.png; sourceTree = "<group>"; };
+		001C4FF41C87E1CA00B66744 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		001C4FF61C87E5AB00B66744 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		001C4FF71C87E5AB00B66744 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		001C4FF91C87E6AC00B66744 /* 小图片.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小图片.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		001C4FB91C87D8C000B66744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001C4FDC1C87D92700B66744 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001C4FB31C87D8C000B66744 = {
+			isa = PBXGroup;
+			children = (
+				001C4FDB1C87D92700B66744 /* AVFoundation.framework */,
+				001C4FBE1C87D8C100B66744 /* MyQRCodeDemo */,
+				001C4FBD1C87D8C000B66744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		001C4FBD1C87D8C000B66744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				001C4FBC1C87D8C000B66744 /* MyQRCodeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		001C4FBE1C87D8C100B66744 /* MyQRCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				001C4FDD1C87DCBC00B66744 /* images */,
+				001C4FC21C87D8C100B66744 /* AppDelegate.h */,
+				001C4FC31C87D8C100B66744 /* AppDelegate.m */,
+				001C4FC51C87D8C100B66744 /* ViewController.h */,
+				001C4FC61C87D8C100B66744 /* ViewController.m */,
+				001C4FD61C87D90A00B66744 /* QRCodeScanViewController.h */,
+				001C4FD71C87D90A00B66744 /* QRCodeScanViewController.m */,
+				001C4FF61C87E5AB00B66744 /* QRCodeGenerator.h */,
+				001C4FF71C87E5AB00B66744 /* QRCodeGenerator.m */,
+				001C4FD81C87D90A00B66744 /* QRCodeScanViewController.xib */,
+				001C4FC81C87D8C100B66744 /* Main.storyboard */,
+				001C4FCB1C87D8C100B66744 /* Assets.xcassets */,
+				001C4FCD1C87D8C100B66744 /* LaunchScreen.storyboard */,
+				001C4FD01C87D8C100B66744 /* Info.plist */,
+				001C4FBF1C87D8C100B66744 /* Supporting Files */,
+			);
+			path = MyQRCodeDemo;
+			sourceTree = "<group>";
+		};
+		001C4FBF1C87D8C100B66744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				001C4FC01C87D8C100B66744 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		001C4FDD1C87DCBC00B66744 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				001C4FDE1C87DCBC00B66744 /* downLeftCorner.png */,
+				001C4FDF1C87DCBC00B66744 /* downRightCorner.png */,
+				001C4FE01C87DCBC00B66744 /* iconfont-erweima (1).png */,
+				001C4FE11C87DCBC00B66744 /* iconfont-erweima.png */,
+				001C4FE21C87DCBC00B66744 /* iconfont-llalbumflashon (1).png */,
+				001C4FE31C87DCBC00B66744 /* iconfont-llalbumflashon.png */,
+				001C4FE41C87DCBC00B66744 /* iconfont-tiaoxingma (1).png */,
+				001C4FF41C87E1CA00B66744 /* line@2x.png */,
+				001C4FE51C87DCBC00B66744 /* iconfont-tiaoxingma.png */,
+				001C4FE61C87DCBC00B66744 /* leftCorner.png */,
+				001C4FE71C87DCBC00B66744 /* rightCorner.png */,
+				001C4FF21C87DD3500B66744 /* n_b.png */,
+				001C4FF91C87E6AC00B66744 /* 小图片.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		001C4FBB1C87D8C000B66744 /* MyQRCodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001C4FD31C87D8C100B66744 /* Build configuration list for PBXNativeTarget "MyQRCodeDemo" */;
+			buildPhases = (
+				001C4FB81C87D8C000B66744 /* Sources */,
+				001C4FB91C87D8C000B66744 /* Frameworks */,
+				001C4FBA1C87D8C000B66744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyQRCodeDemo;
+			productName = MyQRCodeDemo;
+			productReference = 001C4FBC1C87D8C000B66744 /* MyQRCodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		001C4FB41C87D8C000B66744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = chuchengpeng;
+				TargetAttributes = {
+					001C4FBB1C87D8C000B66744 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 001C4FB71C87D8C000B66744 /* Build configuration list for PBXProject "MyQRCodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 001C4FB31C87D8C000B66744;
+			productRefGroup = 001C4FBD1C87D8C000B66744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				001C4FBB1C87D8C000B66744 /* MyQRCodeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		001C4FBA1C87D8C000B66744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001C4FF51C87E1CA00B66744 /* line@2x.png in Resources */,
+				001C4FF01C87DCBC00B66744 /* leftCorner.png in Resources */,
+				001C4FEF1C87DCBC00B66744 /* iconfont-tiaoxingma.png in Resources */,
+				001C4FEA1C87DCBC00B66744 /* iconfont-erweima (1).png in Resources */,
+				001C4FF31C87DD3500B66744 /* n_b.png in Resources */,
+				001C4FE81C87DCBC00B66744 /* downLeftCorner.png in Resources */,
+				001C4FEC1C87DCBC00B66744 /* iconfont-llalbumflashon (1).png in Resources */,
+				001C4FCF1C87D8C100B66744 /* LaunchScreen.storyboard in Resources */,
+				001C4FCC1C87D8C100B66744 /* Assets.xcassets in Resources */,
+				001C4FF11C87DCBC00B66744 /* rightCorner.png in Resources */,
+				001C4FE91C87DCBC00B66744 /* downRightCorner.png in Resources */,
+				001C4FCA1C87D8C100B66744 /* Main.storyboard in Resources */,
+				001C4FEE1C87DCBC00B66744 /* iconfont-tiaoxingma (1).png in Resources */,
+				001C4FFA1C87E6AC00B66744 /* 小图片.jpg in Resources */,
+				001C4FED1C87DCBC00B66744 /* iconfont-llalbumflashon.png in Resources */,
+				001C4FEB1C87DCBC00B66744 /* iconfont-erweima.png in Resources */,
+				001C4FDA1C87D90A00B66744 /* QRCodeScanViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		001C4FB81C87D8C000B66744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001C4FF81C87E5AB00B66744 /* QRCodeGenerator.m in Sources */,
+				001C4FC71C87D8C100B66744 /* ViewController.m in Sources */,
+				001C4FC41C87D8C100B66744 /* AppDelegate.m in Sources */,
+				001C4FC11C87D8C100B66744 /* main.m in Sources */,
+				001C4FD91C87D90A00B66744 /* QRCodeScanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		001C4FC81C87D8C100B66744 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001C4FC91C87D8C100B66744 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		001C4FCD1C87D8C100B66744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				001C4FCE1C87D8C100B66744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		001C4FD11C87D8C100B66744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		001C4FD21C87D8C100B66744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		001C4FD41C87D8C100B66744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyQRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QHPay.MyQRCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		001C4FD51C87D8C100B66744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyQRCodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QHPay.MyQRCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001C4FB71C87D8C000B66744 /* Build configuration list for PBXProject "MyQRCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001C4FD11C87D8C100B66744 /* Debug */,
+				001C4FD21C87D8C100B66744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		001C4FD31C87D8C100B66744 /* Build configuration list for PBXNativeTarget "MyQRCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				001C4FD41C87D8C100B66744 /* Debug */,
+				001C4FD51C87D8C100B66744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 001C4FB41C87D8C000B66744 /* Project object */;
+}
